@@ -9,7 +9,7 @@ services:
     healthCheckPath: /
     envVars:
       - key: PORT
-          value: 5232
+          value: 5244
       - key: DB_TYPE
           value: mysql
         sync: false
