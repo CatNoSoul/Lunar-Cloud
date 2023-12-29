@@ -3,34 +3,34 @@ services:
   - type: web
     name: alist
     env: docker
-    repo: https://github.com/CatNoSoul/Lunar-Cloud.git # optional
-    region: oregon # optional (defaults to oregon)
+    repo: https://github.ink/CatNoSoul/Lunar-Cloud.git # optional
+    region: singapore # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
     envVars:
       - key: PORT
-        value: 5232
+          value: 5232
       - key: DB_TYPE
-        value: mysql
+          value: mysql
         sync: false
       - key: DB_HOST
-        value: db4free.net
+          value: db4free.net
         sync: false
       - key: DB_PORT
-        value: 3306
+        v  alue: 3306
         sync: false
       - key: DB_USER
-        value: styleadmin
+          value: styleadmin
         sync: false
       - key: DB_PASS
-        value: 223754fc
+          value: 223754fc
         sync: false
       - key: DB_NAME
-        value: stylenetwork
+          value: stylenetwork
         sync: false
       - key: DB_TABLE_PREFIX
-        value: alist_
+          value: alist_
         sync: false
       - key: CDN
-        value: https://npm.elemecdn.com/alist-web@$version/dist
+          value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
