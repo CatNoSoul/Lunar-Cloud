@@ -9,26 +9,26 @@ services:
     healthCheckPath: /
     envVars:
       - key: DB_TYPE
-          value: mysql
+         value: mysql
         sync: false
       - key: DB_HOST
-          value: db4free.net
+         value: db4free.net
         sync: false
       - key: DB_PORT
-        v  alue: 3306
+         value: 3306
         sync: false
       - key: DB_USER
-          value: styleadmin
+         value: styleadmin
         sync: false
       - key: DB_PASS
-          value: 223754fc
+         value: 223754fc
         sync: false
       - key: DB_NAME
-          value: stylenetwork
+         value: stylenetwork
         sync: false
       - key: DB_TABLE_PREFIX
-          value: alist_
+         value: alist_
         sync: false
       - key: CDN
-          value: https://npm.elemecdn.com/alist-web@$version/dist
+         value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
